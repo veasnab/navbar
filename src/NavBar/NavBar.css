@@ -28,6 +28,7 @@
               0px 2px 5px rgba(2, 112, 255, 0.7);; /* Add stronger glowing effect */
   padding: 10px 20px; /* Add padding to give space around the NavBar */
   list-style: none;
+  position: relative;
 }
 
 .NavBar .content {
