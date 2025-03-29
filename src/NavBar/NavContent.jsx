@@ -5,7 +5,8 @@ import { v4 as uuidv4 } from "uuid";
 import springboard from "../assets/springboard.pdf";
 import autumn from "../assets/uw-autumn-2023.pdf";
 import winter from "../assets/uw-winter-2023.pdf";
-import diploma from "../assets/uw-diploma.pdf";
+import uwdiploma from "../assets/uw-diploma.pdf";
+import tccdiploma from "../assets/tcc-diploma.pdf";
 /* 
   wrapper component to NavBar 
   update content of navbar;
@@ -47,26 +48,32 @@ const contents = [
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
-        title: "Springboard Software Development",
+        title: "Springboard",
         source: springboard
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
-        title: "University of Washington Diploma",
-        source: diploma
+        title: "University of Washington",
+        source: uwdiploma
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
-        title: "Deanlist: Autumn 2023",
+        title: "UW Deanlist: Autumn 2023",
         source: autumn
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
-        title: "Deanlist: Winter 2023",
+        title: "UW Deanlist: Winter 2023",
         source: winter
+      },
+      {
+        id: uuidv4(),
+        icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
+        title: "Tacoma Community College",
+        source: tccdiploma
       },
     ]
   },
