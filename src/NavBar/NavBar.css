@@ -1,0 +1,36 @@
+/* Mobile view (max-width: 600px) */
+@media (max-width: 800px) {
+  .NavBar .content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-around; /* Space between items */
+    list-style: none;
+    align-items: flex-start; /* Align items at the top */
+    padding: 10px; /* Add some padding for better spacing */
+  }
+}
+
+/* Larger screens (min-width: 1000px) */
+@media (min-width: 800px) {
+  .NavBar .content {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    align-items: center;
+    list-style: none;
+  }
+}
+
+/* Base styles for NavBar */
+.NavBar {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), 
+              0px 2px 5px rgba(2, 112, 255, 0.7);; /* Add stronger glowing effect */
+  padding: 10px 20px; /* Add padding to give space around the NavBar */
+  list-style: none;
+}
+
+.NavBar .content {
+  list-style: none;
+}
+

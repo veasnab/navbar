@@ -1,0 +1,35 @@
+.MainLink {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.MainLink a {
+  padding-top: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.MainLink .link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s ease, border-bottom 0.1s ease;
+  padding: 0px;
+  border-bottom: 2px solid transparent;
+}
+
+.MainLink .link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MainLink .link:hover {
+  color:rgba(2, 112, 255, 0.7);
+  border-bottom: 2px solid rgba(2, 112, 255, 0.7);
+}
+
+.MainLink .dropdown {
+  padding: 5px;
+  color:rgba(2, 112, 255, 0.9);;
+}
