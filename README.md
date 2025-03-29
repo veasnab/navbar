@@ -1,7 +1,7 @@
 # NavBar - React Component | Bootstrap Icons
 
 A reusable and responsive React component for a navigation bar, utilizing **Bootstrap Icons** for a fresh, up-to-date, and user-friendly design.
-![UML Diagram](public/assets/image.png)
+![UML Diagram](src/assets/image.png)
 
 ---
 
