@@ -19,15 +19,15 @@ const contents = [
     id: uuidv4(),
     icon: <i className="bi bi-house-fill"></i>,
     title: "Home",
-    link: "",
+    link: "#home",
     isVisible: false,
     subLink: null
   },
   {
     id: uuidv4(),
     icon: <i className="bi bi-file-code-fill"></i>,
-    title: "Projects",
-    link: "",
+    title: "Live Projects",
+    link: "#projects",
     isVisible: false,
     subLink: [
       {
@@ -42,46 +42,46 @@ const contents = [
     id: uuidv4(),
     icon: <i className="bi bi-file-earmark-pdf-fill"></i>,
     title: "Achievements",
-    link: "",
+    link: "#achievements",
     isVisible: false,
     subLink: [
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
         title: "Springboard",
-        source: springboard
+        source: "https://drive.google.com/file/d/1AxNz8WFejnwFUjZuUPJ2_xn54POdXwVs/view"
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
         title: "University of Washington",
-        source: uwdiploma
+        source: "https://drive.google.com/file/d/1lRQ_AZz-CZXdSwbdX4CPHQRuqfiNK5w9/view"
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
         title: "UW Deanlist: Autumn 2023",
-        source: autumn
+        source: "https://drive.google.com/file/d/1pwOtxCEq0pZw3WaKBJZhGoGFUob3qkVj/view"
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
         title: "UW Deanlist: Winter 2023",
-        source: winter
+        source: "https://drive.google.com/file/d/1DSfyyPggHfKqBUjxkDEQsIvG6taIE-gg/view"
       },
       {
         id: uuidv4(),
         icon: <i className="bi bi-file-earmark-arrow-down-fill"></i>,
         title: "Tacoma Community College",
-        source: tccdiploma
+        source: "https://drive.google.com/file/d/1mEDLiQVlXkg7kWBvw_7Z30o4dV82LGNo/view"
       },
     ]
   },
   {
     id: uuidv4(),
     icon: <i className="bi bi-file-earmark-person-fill"></i>,
-    title: "Resume: {in-progress}",
-    link: "",
+    title: "Resume | CV",
+    link: "https://drive.google.com/file/d/1VplgBVhSMWRZ24HfBeteORMDdnzZzEww/view",
     isVisible: false,
     subLink: null
   },

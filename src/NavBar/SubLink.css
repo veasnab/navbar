@@ -1,13 +1,14 @@
 .SubLink {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.5); 
-  border-radius: 5px; 
-  /* Add glowing effect to the box shadow */
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2), 
-  2px 2px 2px rgba(2, 112, 255, 0.5);
+  position: absolute; /* Position it absolutely relative to its parent */
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1),
+              0px 5px 20px rgba(2, 112, 255, 0.7);
+  z-index: 1;
+  left: 50%; /* Position it 50% from the left of its parent */
+  transform: translateX(-25%); /* Offset the element by 50% of its width to center it */
 }
 
 .SubLink-Hide {
@@ -15,12 +16,15 @@
 }
 
 .SubLink .title {
-  background-color: rgba(2, 112, 255, 0.7);
+  border: none;
+  font-size: 300;
+  background-color: rgba(2, 112, 255, 0.6);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .SubLink button, .SubLink span {
   margin: 10px;
   font-weight: 800;
@@ -36,8 +40,11 @@
 }
 
 .SubLink .subContent {
+  background-color: white;
   list-style: none;
   padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
 .SubLink .link {
@@ -53,22 +60,4 @@
   border-bottom: 1px solid blue;
   top: 70px; 
   left: 20px;
-}
-
-/* Mobile view (max-width: 600px) */
-@media (max-width: 800px) {
-  .SubLink {
-    top: 240px; 
-    left: 10px;
-  }
-  
-}
-
-/* Larger screens (min-width: 1000px) */
-@media (min-width: 800px) {
-  .SubLink {
-    top: 100px; 
-    left: 20px;
-  }
-  
 }
