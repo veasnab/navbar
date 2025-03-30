@@ -2,17 +2,10 @@ import NavBar from "./NavBar";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { v4 as uuidv4 } from "uuid";
 
-import springboard from "../assets/springboard.pdf";
-import autumn from "../assets/uw-autumn-2023.pdf";
-import winter from "../assets/uw-winter-2023.pdf";
-import uwdiploma from "../assets/uw-diploma.pdf";
-import tccdiploma from "../assets/tcc-diploma.pdf";
 /* 
   wrapper component to NavBar 
   update content of navbar;
 */
-
-// **need to update resume and add to bar
 
 const contents = [
   {
